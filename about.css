@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 46);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(32, 32, 85);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   
+    color: burlywood;
+    font-size: 1.04rem;
+}
+.left{
+    margin-left: 12px;
+    font-size: 1.5rem;
+    
+}
+.experience h1{
+    max-width: 80vw;
+    margin-left: 60px;
+    margin-top: 3.6%;
+    margin-bottom: 2.4%;
+    font-size: 2rem;
+}
+main hr{
+    margin: 48px 54px;
+}
+.box{
+    background-color: white;
+    width: 80%;
+    height: 2px;
+    margin: 0 136px;
+    margin-right: 50px;
+    display: flex;
+    margin-top: -58px;
+    margin-left: 181px;
+}
+.vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+.workExpImage{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    display: flex;
+    margin-left: 74px;
+    margin-top: 40px;
+}
+.verticleTitle{
+    margin-top: 100px;
+    margin-left: -54px;
+    width: 185px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.verticleText{
+    margin-left: -52px;
+    width: 180px;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+}
+.skills{
+    margin-left: -52px;
+    width: 180px;
+    margin-top: 12px;
+    color: rgb(173, 172, 172);
+}

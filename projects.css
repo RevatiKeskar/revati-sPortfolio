@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-color: rgb(4, 4, 46);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(32, 32, 85);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   
+    color: burlywood;
+    font-size: 1.04rem;
+}
+.left{
+    margin-left: 12px;
+    font-size: 1.5rem;
+    
+}
+.project{
+    background-color: white;
+    border-radius: 20px;
+    height: 100px;
+    width : 80%;
+    justify-content: space-around;
+    margin: 20px 164px;
+}
+#firstProject{
+    margin-top: 100px;
+    cursor:pointer;
+}
+
+.projectName{
+    margin: 20px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #190458;
+    width: 100%;
+}
+.projectDescription
+{
+    color: #190458;
+    margin: 0px 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 5px;
+}
+.click{
+    color: #190458;
+    margin: 5px 20px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    
+}
+.click2{
+    color: #190458;
+    margin: 15px 20px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+.click3{
+    color: #190458;
+    margin: 0px 20px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
