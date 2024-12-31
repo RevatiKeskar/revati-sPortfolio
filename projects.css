@@ -85,3 +85,16 @@ nav ul li a:hover{
     font-family: 'Poppins',sans-serif;
     cursor: pointer;
 }
+.resume{
+    width: 300px;
+    height: 30px;
+    background-color: burlywood;
+    margin: 0 616px;
+    border-radius: 20px;
+    border-color: white;
+    border : 2px;
+}
+.resumetext{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
